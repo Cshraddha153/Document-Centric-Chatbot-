@@ -1,13 +1,13 @@
 # End to End Document Centric Chatbot
 
-**The Problem:**
+**The Problem Statement:**
 
 Currently, Quality Assurance and Regulatory Affairs teams do not have an easy way to navigate 
 to the information quickly if they have any questions on the guidelines. This is an incredibly 
 time-consuming & tedious process. It is also critical to understand the regulations very well as 
 missing a single point can lead to non-compliance, audit findings, and significant business risk.  
 
-**Approach**
+**My Approach**
 
 This chatbot is built using the Retrieval-Augmented Generation (RAG) approach, allowing it to answer queries based on the contents of custom documents. The key components used are:
 
