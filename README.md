@@ -36,6 +36,46 @@ This combination allows the chatbot to understand, retrieve, and respond to user
 
 
 
+ # System Architecture Summary
+
+**=> Data Flow :**
+**1.** **Document Ingestion:** Raw text files → Processed chunks → Vector embeddings 
+
+**2.** **Query Processing:** User question → Vector search → Context retrieval 
+
+**3.** **Response Generation:** Retrieved context + LLM → Formatted response 
+
+**4.** **Source Attribution:** Chunk metadata → Source citations 
+
+
+
+# Technology Stack
+
+**1. Frontend:** Streamlit (Python web framework) 
+
+**2. Backend:** Python with LangChain orchestration 
+
+**3. AI Engine:** Local Ollama LLM (Llama 3.2) 
+
+**4. Vector Store:** ChromaDB with HNSW indexing 
+
+**5. Embeddings:** HuggingFace sentence-transformers
+
+
+# Key Design Principles
+
+**1. Privacy-First:** Local processing, no external API calls 
+
+**2. Regulatory Compliance:** Audit trails and source attribution 
+
+**3. Scalability:** Modular architecture for easy extension 
+
+**4. User Experience:** Intuitive interface with clear feedback 
+
+**5. Reliability:** Comprehensive error handling and validation
+
+
+
 
 # Steps to Run This Chatbot Locally
 
