@@ -19,7 +19,7 @@ This chatbot is built using the Retrieval-Augmented Generation (RAG) approach, a
 
 This combination allows the chatbot to understand, retrieve, and respond to user queries based on custom .txt documents.
 
-**Frontend of our Application**
+**Frontend of The Application**
 
 **1. GCP Regulatory Chatbot**
 ![GCP 1](https://github.com/user-attachments/assets/f39d66ef-e90e-43d0-a8f3-1a5789c75c08)
