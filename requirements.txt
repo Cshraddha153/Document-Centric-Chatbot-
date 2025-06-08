@@ -1,0 +1,27 @@
+# Core dependencies
+streamlit>=1.28.0
+langchain>=0.0.350
+langchain-community>=0.0.10
+
+# LLM and embeddings
+ollama>=0.1.0
+sentence-transformers>=2.2.2
+transformers>=4.35.0
+torch>=2.0.0
+
+# Vector database
+chromadb>=0.4.18
+chroma-hnswlib>=0.7.3
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Text processing
+tiktoken>=0.5.0
+unstructured>=0.10.30
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+typing-extensions>=4.8.0
