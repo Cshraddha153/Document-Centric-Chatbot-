@@ -39,9 +39,15 @@ This combination allows the chatbot to understand, retrieve, and respond to user
 
 # Steps to Run This Chatbot Locally
 
+**1. Initial Setup**
+
+**=>** Run the following command to perform the initial project setup: **python setup.py**
+
+
+
 **1.** **Set up the environment**
 
-**=>** Install the required Python dependencies: pip install -r requirements.txt
+**=>** Install the required Python dependencies: **pip install -r requirements.txt**
 
 
 
@@ -53,7 +59,7 @@ This combination allows the chatbot to understand, retrieve, and respond to user
 
 **3.** **Run the chatbot**
 
-**=>** Open your terminal in the project directory and run: python run_app.py
+**=>** Open your terminal in the project directory and run: **python run_app.py**
 
 
 
