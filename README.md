@@ -1,13 +1,37 @@
-# Document Centric Chatbot
+# End to End Document Centric Chatbot
 
+**The Problem: **
 
+Currently, Quality Assurance and Regulatory Affairs teams do not have an easy way to navigate 
+to the information quickly if they have any questions on the guidelines. This is an incredibly 
+time-consuming & tedious process. It is also critical to understand the regulations very well as 
+missing a single point can lead to non-compliance, audit findings, and significant business risk.  
+
+**Approach**
+
+This chatbot is built using the Retrieval-Augmented Generation (RAG) approach, allowing it to answer queries based on the contents of custom documents. The key components used are:
+
+**=>LangChain –** for managing the retrieval and chaining logic.
+**Ollama –** a lightweight framework to run local LLMs for generating responses.
+**RAG (Retrieval-Augmented Generation) – ** enables the chatbot to fetch relevant context from documents before answering, making responses more accurate and document-specific.
+
+This combination allows the chatbot to understand, retrieve, and respond to user queries based on custom .txt documents.
+
+**Frontend of our Application**
+
+**1. GCP Regulatory Chatbot**
 ![GCP 1](https://github.com/user-attachments/assets/f39d66ef-e90e-43d0-a8f3-1a5789c75c08)
 
 
-# Chatbot accurately answering based on context from text_v1.txt and text_v2.txt.
+**2. Chatbot accurately answering based on context from text_v1.txt and text_v2.txt**
 
 
 ![GCP Regulatory chatbot 2](https://github.com/user-attachments/assets/f9bbb42d-d9e5-4ed0-a6b0-7b8ee8dbff8a)
+
+**3. About this Application**
+
+![Screenshot (1141)](https://github.com/user-attachments/assets/f2d89e0e-b697-4e76-9ae4-76b7f0e656ca)
+
 
 
 
