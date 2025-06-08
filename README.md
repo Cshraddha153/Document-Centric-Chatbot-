@@ -1,6 +1,6 @@
 # End to End Document Centric Chatbot
 
-**The Problem: **
+**The Problem:**
 
 Currently, Quality Assurance and Regulatory Affairs teams do not have an easy way to navigate 
 to the information quickly if they have any questions on the guidelines. This is an incredibly 
@@ -11,9 +11,11 @@ missing a single point can lead to non-compliance, audit findings, and significa
 
 This chatbot is built using the Retrieval-Augmented Generation (RAG) approach, allowing it to answer queries based on the contents of custom documents. The key components used are:
 
-**=>LangChain –** for managing the retrieval and chaining logic.
-**Ollama –** a lightweight framework to run local LLMs for generating responses.
-**RAG (Retrieval-Augmented Generation) – ** enables the chatbot to fetch relevant context from documents before answering, making responses more accurate and document-specific.
+**=> LangChain –** for managing the retrieval and chaining logic.
+
+**=> Ollama –** a lightweight framework to run local LLMs for generating responses.
+
+**=> RAG (Retrieval-Augmented Generation) –** enables the chatbot to fetch relevant context from documents before answering, making responses more accurate and document-specific.
 
 This combination allows the chatbot to understand, retrieve, and respond to user queries based on custom .txt documents.
 
